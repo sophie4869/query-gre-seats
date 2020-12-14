@@ -61,7 +61,7 @@ class Common(object):
         self.SENDER = self.CONFIG.get('email','user')
         self.RECEIVERS = self.CONFIG.get('email','receivers')
         self.MSG = "From: From Person <"+self.MAIL_USER+""">
-                    To: To Person <sophie4869@gmail.com>
+                    To: To Person <xxx9@gmail.com>
                     Subject: """+self.CONFIG.get('email','subj')+self.CONFIG.get('email','content')
 # """self.CONFIG.get('email','msg')
 
